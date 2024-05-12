@@ -23,10 +23,10 @@ def main():
                 co2 = (raw_measurement[0] << 8) | raw_measurement[1]
 
                 raw_temperature = (raw_measurement[3] << 8) | raw_measurement[4]
-                temperature = -45 + 175 * (raw_temperature / 2 ** 16)
+                temperature = round(-45 + 175 * (raw_temperature / (2 ** 16 - 1)), 1)
 
                 raw_humidity = (raw_measurement[6] << 8) | raw_measurement[7]
-                humidity = 100 * (raw_humidity / 2 ** 16)
+                humidity = round(100 * (raw_humidity / (2 ** 16 - 1)), 1)
 
                 print(f"CO2: {co2} ppm, Humidity: {humidity} %, Temperature: {temperature} °C")
         else:

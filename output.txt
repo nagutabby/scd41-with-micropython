@@ -1,0 +1,15 @@
+SCD41: no new data available
+SCD41: no new data available
+SCD41: no new data available
+SCD41: no new data available
+SCD41: no new data available
+CO2: 1109 ppm, Humidity: 53.5 %, Temperature: 27.4 °C
+SCD41: no new data available
+SCD41: no new data available
+SCD41: no new data available
+SCD41: no new data available
+CO2: 1106 ppm, Humidity: 54.5 %, Temperature: 27.0 °C
+SCD41: no new data available
+SCD41: no new data available
+SCD41: no new data available
+CO2: 1101 ppm, Humidity: 55.4 %, Temperature: 26.8 °C
